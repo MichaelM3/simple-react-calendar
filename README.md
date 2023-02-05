@@ -7,21 +7,20 @@
 ## Install
 
 ```bash
-npm install --save simple-react-calendar
+yard add simple-react-calendar
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import CalendarForm from 'simple-react-calendar'
 
-import MyComponent from 'simple-react-calendar'
-import 'simple-react-calendar/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const SomeFunctionalComponent = () => {
+    return (
+        <div>
+            <CalendarForm />
+        </div>
+    )
 }
 ```
 
