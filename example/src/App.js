@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'simple-react-calendar'
-import 'simple-react-calendar/dist/index.css'
+import CalendarForm from 'simple-react-calendar/src/CalendarForm'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <CalendarForm />
 }
 
 export default App
